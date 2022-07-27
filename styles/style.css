@@ -1,6 +1,6 @@
 .carousel-item{
     height: 100vh;
-    min-height: 300px;
+    min-height: 230px;
     background: no-repeat scroll center scroll;
     -webkit-background-size:cover;
     background-size: cover;
@@ -32,6 +32,7 @@
     background-color: aqua;
     margin-right: 15px;
     font-size: medium;
+    
 
 
 }
