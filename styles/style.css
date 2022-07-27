@@ -1,38 +1,70 @@
-.carousel-item{
-    height: 100vh;
-    min-height: 230px;
-    background: no-repeat scroll center scroll;
-    -webkit-background-size:cover;
-    background-size: cover;
+*{
+    margin: 0;
+    padding: 0;
 }
-.carousel-item::before{
-    content:"";
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: black;
-    opacity: .7;
+/* navbar css */
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 700;
+    color: slategray;
+}
+.btn{
+    font-weight: 700;
+    padding: 8px 20px;
+}
+.nav-link{
+    font-weight: 500;
+}
+/* ---------carousel css 
+----------*/
+.carousel{
+    padding: 30px 0;
+}
+.carousel-item{
+    height: 80vh;
 }
 .carousel-caption{
-    bottom: 180px;
-    padding-left: 100px;
-    padding-right:100px ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 200px;
+    background-color: rgba(34, 31, 31, 0.637);
 }
-.carousel-caption h1{
-    font-size: 80px;
+.carousel-caption h2{
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
 }
-.slider-btn .btn-btn-1{
-    border-radius: 5px;
-    padding: 10px 30px;
-    font-size: 1rem;
-    color: white;
-    background-color: aqua;
-    margin-right: 15px;
-    font-size: medium;
-    
+/* courses css */
 
-
+.courses{
+    margin-bottom: 50px;
+}
+.courses-heading{
+    text-align: center;
+    padding: 100px 280px;
+}
+.courses-heading h3{
+    font-size: 3rem;
+}
+.price{
+    font-size: 700;
+    color: #0084ff;
+}
+/* explorer csss */
+.explore{
+    margin: 80px 0;
+}
+.explore-image{
+    overflow: hidden;
+}
+.explore-image img{
+    width: 100%;
+}
+.explore-details{
+    padding: 80px 0;
+}
+.explore-details h2{
+    font-size: 3rem;
 }
