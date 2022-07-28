@@ -106,7 +106,7 @@
 }
 
 /* Accordion CSSS */
-.accordion h2{
+.accordion-button{
     font-size: 100px;
-    font-weight: 700;
+    font-weight: bold;
 }
