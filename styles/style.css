@@ -104,3 +104,9 @@
 .student-header h2{
     font-size: 2rem;
 }
+
+/* Accordion CSSS */
+.accordion h2{
+    font-size: 100px;
+    font-weight: 700;
+}
